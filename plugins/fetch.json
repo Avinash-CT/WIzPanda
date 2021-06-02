@@ -1,0 +1,91 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@^1.3.4"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-firebase-analytics": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase-analytics@^5.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "ANDROID_FIREBASE_ANALYTICS_VERSION": "18.0.+"
+    }
+  },
+  "cordova-support-android-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-support-android-plugin@~1.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-support-google-services": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-support-google-services@^1.3.2"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-firebase-crash": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase-crash@^3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "ANDROID_FIREBASE_CRASHLYTICS_VERSION": "17.3.+"
+    }
+  },
+  "cordova-plugin-firebase-messaging": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase-messaging@^5.0.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROID_FIREBASE_MESSAGING_VERSION": "21.0.+",
+      "ANDROIDX_CORE_VERSION": "1.3.+"
+    }
+  },
+  "cordova-plugin-androidx": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-androidx@3.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-firebase-dynamiclinks": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase-dynamiclinks@^5.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_DOMAIN_NAME": "kidsgenericstaging.page.link",
+      "APP_DOMAIN_PATH": "/",
+      "ANDROID_FIREBASE_DYNAMICLINKS_VERSION": "19.1.+"
+    }
+  },
+  "clevertap-cordova": {
+    "source": {
+      "type": "local",
+      "path": "D:\\CleverTap\\Task2\\Cordova\\Android\\WIZfbfetch\\wiz\\node_modules\\clevertap-cordova"
+    },
+    "is_top_level": true,
+    "variables": {
+      "CLEVERTAP_ACCOUNT_ID": "TEST-RZ7-Z94-K95Z",
+      "CLEVERTAP_TOKEN": "TEST-4c1-a12"
+    }
+  }
+}

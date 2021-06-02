@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-firebase-crash@3.0.0",
+      "D:\\CleverTap\\Task2\\Cordova\\Android\\WIZfbfetch\\wiz"
+    ]
+  ],
+  "_development": true,
+  "_from": "cordova-plugin-firebase-crash@3.0.0",
+  "_id": "cordova-plugin-firebase-crash@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Tg32lf9F1rU9sBFLNgnSienabUADEdMhxwaZiCLPIddEcNlbKepvpTPKR4J27WZO0F/u4/UqXaRKFY6+iQKbxw==",
+  "_location": "/cordova-plugin-firebase-crash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-crash@3.0.0",
+    "name": "cordova-plugin-firebase-crash",
+    "escapedName": "cordova-plugin-firebase-crash",
+    "rawSpec": "3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-crash/-/cordova-plugin-firebase-crash-3.0.0.tgz",
+  "_spec": "3.0.0",
+  "_where": "D:\\CleverTap\\Task2\\Cordova\\Android\\WIZfbfetch\\wiz",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-crash/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-firebase-crash",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "xcode": "2.0.0"
+  },
+  "description": "Cordova plugin for Firebase Crashlytics",
+  "funding": "https://github.com/chemerisuk/cordova-plugin-firebase-crash?sponsor=1",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-crash#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "crash",
+    "analytics",
+    "crashlytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-crash",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-crash.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "3.0.0"
+}

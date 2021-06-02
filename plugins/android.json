@@ -1,0 +1,48 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.onmobile.kids.demo"
+    },
+    "cordova-plugin-firebase-analytics": {
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "ANDROID_FIREBASE_ANALYTICS_VERSION": "18.0.+",
+      "PACKAGE_NAME": "com.onmobile.kids.demo"
+    },
+    "cordova-plugin-firebase-crash": {
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "ANDROID_FIREBASE_CRASHLYTICS_VERSION": "17.3.+",
+      "PACKAGE_NAME": "com.onmobile.kids.demo"
+    },
+    "cordova-plugin-firebase-messaging": {
+      "ANDROID_FIREBASE_MESSAGING_VERSION": "21.0.+",
+      "ANDROIDX_CORE_VERSION": "1.3.+",
+      "PACKAGE_NAME": "com.onmobile.kids.demo"
+    },
+    "cordova-plugin-firebase-dynamiclinks": {
+      "APP_DOMAIN_NAME": "kidsgenericstaging.page.link",
+      "APP_DOMAIN_PATH": "/",
+      "ANDROID_FIREBASE_DYNAMICLINKS_VERSION": "19.1.+",
+      "PACKAGE_NAME": "com.onmobile.kids.demo"
+    },
+    "clevertap-cordova": {
+      "CLEVERTAP_ACCOUNT_ID": "TEST-RZ7-Z94-K95Z",
+      "CLEVERTAP_TOKEN": "TEST-4c1-a12",
+      "CLEVERTAP_REGION": " ",
+      "FIREBASE_MESSAGING_VERSION": "20.1.+",
+      "PACKAGE_NAME": "com.onmobile.kids.demo"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-support-android-plugin": {
+      "PACKAGE_NAME": "com.onmobile.kids.demo"
+    }
+  }
+}

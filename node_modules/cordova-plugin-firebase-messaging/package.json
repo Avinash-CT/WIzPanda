@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-firebase-messaging@5.0.1",
+      "D:\\CleverTap\\Task2\\Cordova\\Android\\WIZfbfetch\\wiz"
+    ]
+  ],
+  "_development": true,
+  "_from": "cordova-plugin-firebase-messaging@5.0.1",
+  "_id": "cordova-plugin-firebase-messaging@5.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-EiV4qHYPG2ASvbUZy4xbVzRvglWDmSZeE5lwxImq2AHB+HjDZo4vVo8322DK9mJ7gyGm7dU0335myH3+vtvfew==",
+  "_location": "/cordova-plugin-firebase-messaging",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-messaging@5.0.1",
+    "name": "cordova-plugin-firebase-messaging",
+    "escapedName": "cordova-plugin-firebase-messaging",
+    "rawSpec": "5.0.1",
+    "saveSpec": null,
+    "fetchSpec": "5.0.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-messaging/-/cordova-plugin-firebase-messaging-5.0.1.tgz",
+  "_spec": "5.0.1",
+  "_where": "D:\\CleverTap\\Task2\\Cordova\\Android\\WIZfbfetch\\wiz",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-firebase-messaging",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "description": "Cordova plugin for Firebase Messaging",
+  "funding": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging?sponsor=1",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "push",
+    "fcm",
+    "gcm",
+    "messaging",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-messaging",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-messaging.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "5.0.1"
+}

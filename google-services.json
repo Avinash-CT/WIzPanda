@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5491716568",
+    "project_id": "onmobile-kids-demo",
+    "storage_bucket": "onmobile-kids-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5491716568:android:529b317d150e33d6fcc2ad",
+        "android_client_info": {
+          "package_name": "com.onmobile.kids.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5491716568-e60nmfockap7vkert6johjbiuqal6pdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ0KjkRc6in_2CJFZsmECKC5Sa2Tl0qO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5491716568-e60nmfockap7vkert6johjbiuqal6pdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
